@@ -1,7 +1,7 @@
 // Load the AWS SDK for Node.js
 const AWS = require('aws-sdk');
 // Set the region
-AWS.config.update({region: 'us-east-2', accessKeyId : 'AKIARDHNC726HWMHG2UQ', secretAccessKey:'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'});
+AWS.config.update({region: 'us-east-2', accessKeyId : 'key', secretAccessKey:'key'});
 // Create SQS service object
 const sqs = new AWS.SQS({apiVersion: '2012-11-05'});
 // Replace with your accountid and the queue name you setup
